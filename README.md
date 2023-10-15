@@ -8,7 +8,7 @@ The environment is built based on the open micro traffic simulation software Ecl
 * [Pytorch](https://pytorch.org/) 1.13.1 + cu116
 
 In this work, 25 simulation scenarios with different micro driving characteristics and traffic demands were established for a certain highway network. Among all these scenarios, 
-[rongwu_route_III_III.rou.xml](https://github.com/YuHan-Research-Group-SEU/Deep-Reinforcement-Learning-Network-for-Highway-Ramp-Metering/blob/main/Simulation/rongwu_route_III_III.rou.xml) is the baseline environment.  
+[rongwu_route_II_III.rou.xml](https://github.com/YuHan-Research-Group-SEU/Deep-Reinforcement-Learning-Network-for-Highway-Ramp-Metering/blob/main/Simulation/rongwu_route_II_III.rou.xml) is the baseline environment.  
 
 The first Roman digit in the rou file name represents its car-following and lane-changing model (the corresponding relationship is shown in the table below), and the second Roman digit represent the traffic demand in this environment (the larger the value, the greater the load).
 | First Roman Digit      | Car-following Model    | Lane-changing Model    |
